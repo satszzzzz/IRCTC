@@ -1,0 +1,98 @@
+[
+  {
+    "user_id": "1234",
+    "name": "Satwik Das",
+    "password": "0102@ilafehS",
+    "hashed_password": "",
+    "tickets_booked": [
+      {
+        "ticket_id": "A1B2C3D4E5F6G7H8",
+        "source": "Bhubaneswar",
+        "destination": "Bangalore",
+        "user_id": "1234",
+        "date_of_travel": "22-11-2024 10:45:00",
+        "train": {
+          "train_id": "1234",
+          "train_no": "5678",
+          "seats": [
+            [0, 0, 0, 0],
+            [0, 0, 0, 1],
+            [0, 1, 1, 0],
+            [1, 0, 0, 0]
+          ],
+          "station_times": {
+            "Bhubaneswar": "10:30:00",
+            "Bangalore": "19:30:00",
+            "Pune": "17:50:00",
+            "Delhi": "18:00:00"
+          },
+          "stations": [
+            "Bhubaneswar",
+            "Bangalore",
+            "Delhi",
+            "Hyderabad"
+          ]
+        }
+      },
+      {
+        "ticket_id": "A1B2C3D45EF6G7H8",
+        "source": "Bhubaneswar",
+        "destination": "Pune",
+        "user_id": "1234",
+        "date_of_travel": "31-12-2024 10:45:00",
+        "train": {
+          "train_id": "1234",
+          "train_no": "5678",
+          "seats": [
+            [0,0,0,0],
+            [0,0,0,1],
+            [0,0,0,0],
+            [0,0,0,0]
+          ],
+          "station_times": {
+            "Bhubaneswar":  "10:30:00",
+            "Pune":  "19:30:00"
+          },
+          "stations": [
+            "Bhubaneswar",
+            "Pune"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "user_id": "4321",
+    "name": "Shefali Das",
+    "password": "278@nubuB",
+    "hashed_password": "",
+    "tickets_booked": [
+      {
+        "ticket_id": "A1B2C3D4E5F6G7H8",
+        "source": "Bhubaneswar",
+        "destination": "Bangalore",
+        "user_id": "1234",
+        "date_of_travel": "22-11-2024 10:45:00",
+        "train": {
+          "train_id": "1234",
+          "train_no": "5678",
+          "seats": [
+            [0,0,0,1],
+            [0,0,0,0],
+            [0,0,0,0],
+            [0,0,0,0]
+          ],
+          "station_times": {
+            "Pune":  "17:50:00",
+            "Delhi":  "18:00:00"
+          },
+          "stations": [
+            "Bhubaneswar",
+            "Bangalore"
+          ]
+        }
+      }
+    ]
+  }
+]
+
